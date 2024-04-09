@@ -17,6 +17,7 @@ import Next from "../assests/imgs/next.png";
 import Framer from "../assests/imgs/framer.png";
 import Typescript from "../assests/imgs/ts.png";
 import MaterialUi from "../assests/imgs/mui.png";
+import ReactRouter from "../assests/imgs/react-router.svg";
 const skills = [
   { id: 1, Image: Html, title: "HTML5" },
   { id: 2, Image: Css, title: "Css3" },
@@ -28,6 +29,7 @@ const skills = [
   { id: 8, Image: Framer, title: "Framer-motion" },
   { id: 9, Image: Typescript, title: "Typescript" },
   { id: 10, Image: MaterialUi, title: "Material ui" },
+  { id: 11, Image: ReactRouter, title: "react router dom" },
 ];
 export const Skills = () => {
   const responsive = {
