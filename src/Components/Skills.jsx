@@ -27,8 +27,7 @@ const skills = [
   { id: 7, Image: Next, title: "Next.js" },
   { id: 8, Image: Framer, title: "Framer-motion" },
   { id: 9, Image: Typescript, title: "Typescript" },
-  { id: 10, Image: Framer, title: "Framer-motion" },
-  { id: 11, Image: MaterialUi, title: "Material ui" },
+  { id: 10, Image: MaterialUi, title: "Material ui" },
 ];
 export const Skills = () => {
   const responsive = {

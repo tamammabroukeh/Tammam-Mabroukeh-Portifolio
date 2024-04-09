@@ -17,7 +17,7 @@ import projImg13 from "../assests/imgs/SnapUp.PNG";
 import projImg14 from "../assests/imgs/Crypto.PNG";
 import projImg15 from "../assests/imgs/Portifolio.PNG";
 import projImg16 from "../assests/imgs/Dashboard.PNG";
-
+import projImg17 from "../assests/imgs/netflix.PNG";
 import Nav from "react-bootstrap/Nav";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
@@ -32,11 +32,10 @@ export const Projects = () => {
       Url: "https://tamammabroukeh.github.io/Snap-Up/",
     },
     {
-      title: "Cryptoverse currencies project",
-      description: `Cryptocurrency website that contains an explanation of
-      digital currencies, in addition to the currency search feature`,
-      imgUrl: projImg14,
-      Url: "https://tamammabroukeh.github.io/cryptoverse-currencies/",
+      title: "Netflix demo project",
+      description: `Full Stack Netflix Project contains many movies with the ability to view the trailer for each movie`,
+      imgUrl: projImg17,
+      Url: "https://netflix-app-v1.vercel.app/",
     },
     {
       title: "Portifolio project",
@@ -78,6 +77,13 @@ export const Projects = () => {
 
   const projectsSecond = [
     {
+      title: "Cryptoverse currencies project",
+      description: `Cryptocurrency website that contains an explanation of
+      digital currencies, in addition to the currency search feature`,
+      imgUrl: projImg14,
+      Url: "https://tamammabroukeh.github.io/cryptoverse-currencies/",
+    },
+    {
       title: "Hangman Game",
       description:
         "A simple game whose goal is to search for a word within a group of letters",
@@ -96,20 +102,20 @@ export const Projects = () => {
       imgUrl: projImg11,
       Url: "https://tamammabroukeh.github.io/XO-Game/",
     },
+  ];
+
+  const projectsThird = [
+    // {
+    //   title: "Kasper",
+    //   description:
+    //     "Portfolio to display team information and details of its work and projects",
+    //   imgUrl: projImg6,
+    // },
     {
       title: "Leon",
       description: "Simple landing page to display company information",
       imgUrl: projImg7,
       Url: "https://tamammabroukeh.github.io/Leon/",
-    },
-  ];
-
-  const projectsThird = [
-    {
-      title: "Kasper",
-      description:
-        "Portfolio to display team information and details of its work and projects",
-      imgUrl: projImg6,
     },
     {
       title: "Portfolio Company",
