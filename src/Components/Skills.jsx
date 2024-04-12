@@ -29,7 +29,7 @@ const skills = [
   { id: 8, Image: Framer, title: "Framer-motion" },
   { id: 9, Image: Typescript, title: "Typescript" },
   { id: 10, Image: MaterialUi, title: "Material ui" },
-  { id: 11, Image: ReactRouter, title: "react router dom" },
+  { id: 11, Image: ReactRouter, title: "Routing" },
 ];
 export const Skills = () => {
   const responsive = {
